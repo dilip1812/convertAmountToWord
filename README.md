@@ -9,7 +9,7 @@ To use this app, your system need:
 
 ## Installation
 
-**To Instlall Python3 Visit**
+**To Instlall Python3**
 >https://www.python.org/downloads/
 
 **Installing virtualenv(on mac or linux)**
