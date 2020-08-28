@@ -15,9 +15,6 @@ To use this app, your system need:
 **Installing virtualenv(on mac or linux)**
 > python3 -m pip install --user virtualenv
 
-**Installing virtualenv(on window)**
-> py -m pip install --user virtualenv
-
 
 
 ## Project Set Up (For Mac User)
