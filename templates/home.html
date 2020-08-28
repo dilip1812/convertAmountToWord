@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>NumberToWordConversion</title>
+    <style>
+    .container {
+        width:500px;
+        height:400px;
+        margin:50px;
+        background-color:white;
+        border-radius:10px;
+        border: 2px solid orange;
+        
+    }
+    body {
+        background-color:grey;
+    }
+    h1 {
+        font-size:20px;
+    }
+    form {
+        margin:50px;
+    }
+    #answer {
+        margin:20px;
+        border: 1px solid black;
+        height:100;
+        width:460;
+        text-align:center;
+        padding:5px;
+        
+    }
+    #heading {
+        padding:5px;
+        text-align:center;
+        background-color:yellow;
+        border-radius:10px;
+    }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="container">
+        <div id="heading">
+      <h1>Convert Amount In Word</h2>
+      </div>
+      <form action = "http://localhost:5000/" method = "post"> 
+         <p><input type = "text" name = "number" size="50" placeholder="Enter Amount Between 00 to 999999.99" value={{value}}></p>
+         <p><input type = "submit" value = "convert"></p> 
+      </form>
+      <div id="answer">
+        <p>Amount in Word:</p>
+        <h3>{{amountToWord}}<h3>
+      </div>
+      </div>
+  </body>
+</html>
