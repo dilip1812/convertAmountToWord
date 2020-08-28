@@ -1,1 +1,1 @@
-# convertAmountToWord
+# ConvertAmountToWord
